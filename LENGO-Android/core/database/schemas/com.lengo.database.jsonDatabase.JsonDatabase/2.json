@@ -1,0 +1,138 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "9da9ac7d6ca2e2388070f1782a036755",
+    "entities": [
+      {
+        "tableName": "json_pack",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`available_sel_lng` TEXT NOT NULL, `coins` INTEGER NOT NULL, `emoji` TEXT, `func` TEXT NOT NULL, `id` INTEGER NOT NULL, `lections` TEXT NOT NULL, `name` TEXT NOT NULL, `owner` INTEGER NOT NULL, `version` INTEGER NOT NULL, PRIMARY KEY(`id`, `func`, `owner`))",
+        "fields": [
+          {
+            "fieldPath": "available_sel_lng",
+            "columnName": "available_sel_lng",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "coins",
+            "columnName": "coins",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "emoji",
+            "columnName": "emoji",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "func",
+            "columnName": "func",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lections",
+            "columnName": "lections",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "owner",
+            "columnName": "owner",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "version",
+            "columnName": "version",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id",
+            "func",
+            "owner"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "json_obj",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`func` TEXT NOT NULL, `lec` INTEGER NOT NULL, `obj` INTEGER NOT NULL, `owner` INTEGER NOT NULL, `pck` INTEGER NOT NULL, `value` TEXT, PRIMARY KEY(`func`, `lec`, `obj`, `pck`, `owner`))",
+        "fields": [
+          {
+            "fieldPath": "func",
+            "columnName": "func",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lec",
+            "columnName": "lec",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "obj",
+            "columnName": "obj",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "owner",
+            "columnName": "owner",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pck",
+            "columnName": "pck",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "value",
+            "columnName": "value",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "func",
+            "lec",
+            "obj",
+            "pck",
+            "owner"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '9da9ac7d6ca2e2388070f1782a036755')"
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 3,
+    "identityHash": "f483b686f2a3b65e6a01cc6cf6c9ab9b",
+    "entities": [
+      {
+        "tableName": "packs_ui",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`type` TEXT NOT NULL, `pck` INTEGER NOT NULL, `owner` INTEGER NOT NULL, `pack_title` TEXT NOT NULL, `packNameMap` TEXT NOT NULL, `coins` INTEGER NOT NULL, `emoji` TEXT NOT NULL, `lang` TEXT NOT NULL, `badge` TEXT NOT NULL, `version` INTEGER NOT NULL DEFAULT -1, `subscribed` INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(`pck`, `type`, `owner`, `lang`))",
+        "fields": [
+          {
+            "fieldPath": "type",
+            "columnName": "type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pck",
+            "columnName": "pck",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "owner",
+            "columnName": "owner",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pack_title",
+            "columnName": "pack_title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "packNameMap",
+            "columnName": "packNameMap",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "coins",
+            "columnName": "coins",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "emoji",
+            "columnName": "emoji",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lang",
+            "columnName": "lang",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "badge",
+            "columnName": "badge",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "version",
+            "columnName": "version",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "-1"
+          },
+          {
+            "fieldPath": "subscribed",
+            "columnName": "subscribed",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "pck",
+            "type",
+            "owner",
+            "lang"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "lections_ui_new",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`type` TEXT NOT NULL, `pck` INTEGER NOT NULL, `owner` INTEGER NOT NULL, `lec` INTEGER NOT NULL, `lec_title` TEXT NOT NULL, `lec_nameMap` TEXT NOT NULL, `lang` TEXT NOT NULL, `example` TEXT, `explanation` TEXT, `errorDrawable` INTEGER NOT NULL, `lec_image` TEXT NOT NULL DEFAULT 'placeholder', PRIMARY KEY(`lec`, `pck`, `owner`, `type`, `lang`))",
+        "fields": [
+          {
+            "fieldPath": "type",
+            "columnName": "type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pck",
+            "columnName": "pck",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "owner",
+            "columnName": "owner",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lec",
+            "columnName": "lec",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lec_title",
+            "columnName": "lec_title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lec_nameMap",
+            "columnName": "lec_nameMap",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lang",
+            "columnName": "lang",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "example",
+            "columnName": "example",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "explanation",
+            "columnName": "explanation",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "errorDrawable",
+            "columnName": "errorDrawable",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lec_image",
+            "columnName": "lec_image",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "'placeholder'"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "lec",
+            "pck",
+            "owner",
+            "type",
+            "lang"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f483b686f2a3b65e6a01cc6cf6c9ab9b')"
+    ]
+  }
+}

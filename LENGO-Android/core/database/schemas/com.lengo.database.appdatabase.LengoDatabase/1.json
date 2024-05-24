@@ -1,0 +1,439 @@
+
+{
+"formatVersion": 1,
+"database": {
+"version": 1,
+"identityHash": "2fddaccf4b1291a1cad8a9242005aee3",
+"entities": [
+{
+"tableName": "packs",
+"createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`coins` INTEGER NOT NULL, `editable` INTEGER NOT NULL, `emoji` TEXT, `key_pushed` INTEGER NOT NULL, `last_retrieval` INTEGER NOT NULL, `lng` TEXT NOT NULL, `owner` INTEGER NOT NULL, `pck` INTEGER NOT NULL, `pushed` INTEGER NOT NULL, `submitted` INTEGER NOT NULL, `subscribed` INTEGER NOT NULL, `type` TEXT NOT NULL, `title` TEXT NOT NULL, PRIMARY KEY(`pck`, `type`, `owner`, `lng`))",
+"fields": [
+{
+"fieldPath": "coins",
+"columnName": "coins",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "editable",
+"columnName": "editable",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "emoji",
+"columnName": "emoji",
+"affinity": "TEXT",
+"notNull": false
+},
+{
+"fieldPath": "key_pushed",
+"columnName": "key_pushed",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "last_retrieval",
+"columnName": "last_retrieval",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "lng",
+"columnName": "lng",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "owner",
+"columnName": "owner",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "pck",
+"columnName": "pck",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "pushed",
+"columnName": "pushed",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "submitted",
+"columnName": "submitted",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "subscribed",
+"columnName": "subscribed",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "type",
+"columnName": "type",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "title",
+"columnName": "title",
+"affinity": "TEXT",
+"notNull": true
+}
+],
+"primaryKey": {
+"columnNames": [
+"pck",
+"type",
+"owner",
+"lng"
+],
+"autoGenerate": false
+},
+"indices": [],
+"foreignKeys": []
+},
+{
+"tableName": "lections",
+"createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`lec` INTEGER NOT NULL, `lng` TEXT NOT NULL, `pck` INTEGER NOT NULL, `owner` INTEGER NOT NULL, `type` TEXT NOT NULL, `title` TEXT NOT NULL, `image` TEXT, `explanation` TEXT, `examples` TEXT, PRIMARY KEY(`lec`, `pck`, `owner`, `type`, `lng`))",
+"fields": [
+{
+"fieldPath": "lec",
+"columnName": "lec",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "lng",
+"columnName": "lng",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "pck",
+"columnName": "pck",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "owner",
+"columnName": "owner",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "type",
+"columnName": "type",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "title",
+"columnName": "title",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "image",
+"columnName": "image",
+"affinity": "TEXT",
+"notNull": false
+},
+{
+"fieldPath": "explanation",
+"columnName": "explanation",
+"affinity": "TEXT",
+"notNull": false
+},
+{
+"fieldPath": "examples",
+"columnName": "examples",
+"affinity": "TEXT",
+"notNull": false
+}
+],
+"primaryKey": {
+"columnNames": [
+"lec",
+"pck",
+"owner",
+"type",
+"lng"
+],
+"autoGenerate": false
+},
+"indices": [],
+"foreignKeys": []
+},
+{
+"tableName": "object",
+"createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`iVal` INTEGER NOT NULL, `iVal_pushed` INTEGER NOT NULL, `last_retrieval` INTEGER NOT NULL, `lec` INTEGER NOT NULL, `lng` TEXT NOT NULL, `obj` INTEGER NOT NULL, `type` TEXT NOT NULL, `owner` INTEGER NOT NULL, `pck` INTEGER NOT NULL, `pushed` INTEGER NOT NULL, `own` TEXT, `sel` TEXT, PRIMARY KEY(`lec`, `obj`, `pck`, `owner`, `type`, `lng`))",
+"fields": [
+{
+"fieldPath": "iVal",
+"columnName": "iVal",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "iVal_pushed",
+"columnName": "iVal_pushed",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "last_retrieval",
+"columnName": "last_retrieval",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "lec",
+"columnName": "lec",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "lng",
+"columnName": "lng",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "obj",
+"columnName": "obj",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "type",
+"columnName": "type",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "owner",
+"columnName": "owner",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "pck",
+"columnName": "pck",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "pushed",
+"columnName": "pushed",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "own",
+"columnName": "own",
+"affinity": "TEXT",
+"notNull": false
+},
+{
+"fieldPath": "sel",
+"columnName": "sel",
+"affinity": "TEXT",
+"notNull": false
+}
+],
+"primaryKey": {
+"columnNames": [
+"lec",
+"obj",
+"pck",
+"owner",
+"type",
+"lng"
+],
+"autoGenerate": false
+},
+"indices": [],
+"foreignKeys": []
+},
+{
+"tableName": "user",
+"createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `userid` INTEGER NOT NULL, `activity_id` INTEGER, `email` TEXT, `highscore` INTEGER NOT NULL, `name` TEXT, `password` TEXT, `points` INTEGER NOT NULL, `coins` INTEGER NOT NULL, `primary_device` TEXT, `primary_os` TEXT, `pushed` INTEGER NOT NULL, `region_code` TEXT, `sel` TEXT NOT NULL, `own` TEXT NOT NULL)",
+"fields": [
+{
+"fieldPath": "id",
+"columnName": "id",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "userid",
+"columnName": "userid",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "activity_id",
+"columnName": "activity_id",
+"affinity": "INTEGER",
+"notNull": false
+},
+{
+"fieldPath": "email",
+"columnName": "email",
+"affinity": "TEXT",
+"notNull": false
+},
+{
+"fieldPath": "highscore",
+"columnName": "highscore",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "name",
+"columnName": "name",
+"affinity": "TEXT",
+"notNull": false
+},
+{
+"fieldPath": "password",
+"columnName": "password",
+"affinity": "TEXT",
+"notNull": false
+},
+{
+"fieldPath": "points",
+"columnName": "points",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "coins",
+"columnName": "coins",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "primaryDevice",
+"columnName": "primary_device",
+"affinity": "TEXT",
+"notNull": false
+},
+{
+"fieldPath": "primaryOs",
+"columnName": "primary_os",
+"affinity": "TEXT",
+"notNull": false
+},
+{
+"fieldPath": "pushed",
+"columnName": "pushed",
+"affinity": "INTEGER",
+"notNull": true
+},
+{
+"fieldPath": "regionCode",
+"columnName": "region_code",
+"affinity": "TEXT",
+"notNull": false
+},
+{
+"fieldPath": "sel",
+"columnName": "sel",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "own",
+"columnName": "own",
+"affinity": "TEXT",
+"notNull": true
+}
+],
+"primaryKey": {
+"columnNames": [
+"id"
+],
+"autoGenerate": true
+},
+"indices": [],
+"foreignKeys": []
+},
+{
+"tableName": "language",
+"createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`tkn` TEXT NOT NULL, `accent` TEXT NOT NULL, `firstColor` TEXT NOT NULL, `IOS_appid` TEXT NOT NULL, `IOS_bundleid` TEXT NOT NULL, `iso639` TEXT NOT NULL, `iso639_3` TEXT NOT NULL, `secondColor` TEXT NOT NULL, PRIMARY KEY(`tkn`))",
+"fields": [
+{
+"fieldPath": "tkn",
+"columnName": "tkn",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "accent",
+"columnName": "accent",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "firstColor",
+"columnName": "firstColor",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "IOS_appid",
+"columnName": "IOS_appid",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "IOS_bundleid",
+"columnName": "IOS_bundleid",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "iso639",
+"columnName": "iso639",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "iso639_3",
+"columnName": "iso639_3",
+"affinity": "TEXT",
+"notNull": true
+},
+{
+"fieldPath": "secondColor",
+"columnName": "secondColor",
+"affinity": "TEXT",
+"notNull": true
+}
+],
+"primaryKey": {
+"columnNames": [
+"tkn"
+],
+"autoGenerate": false
+},
+"indices": [],
+"foreignKeys": []
+}
+],
+"views": [],
+"setupQueries": [
+"CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+"INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '2fddaccf4b1291a1cad8a9242005aee3')"
+]
+}
+}

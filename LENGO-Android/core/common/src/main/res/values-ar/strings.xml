@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    http://lengo.io-->
+    <string name="SelectSource">قم بتحديد المصدر</string>
+    <string name="CloseL">إلغاء</string>
+    <string name="GaleryL">معرض</string>
+    <string name="punkteT">نقاط</string>
+    <string name="SehrGutT">!هذا جيد جدا</string>
+    <string name="GutT">!جيد</string>
+    <string name="GehtBesserT">قابل للتحسن.</string>
+    <string name="UbenT">! ْاِتدرب</string>
+    <string name="VerfehltT">مفقود!</string>
+    <string name="Vokabeln">مفردات</string>
+    <string name="Grammatik">قواعد</string>
+    <string name="Kamera">كاميرا</string>
+    <string name="Chat">دردشة</string>
+    <string name="Statistik">إحصائيات</string>
+    <string name="ScanImagesString">اضافة المفردات عن طريق تصفح الموضوعات</string>
+    <string name="pushLearningLabel">تشجيع التعلم</string>
+    <string name="pusLearningDiscription">تعمل ميزة Push Learning على زيادة سرعة التعلم لديك بما يصل إلى 10x. ستتلقى المهام عبر إشعارات الدفع ويمكنك حلها دون فتح LENGO.</string>
+    <string name="whatmeans">؟xxx في yyy كيف تقول </string>
+    <string name="Speak">تحدث</string>
+    <string name="woerter">كلمات</string>
+    <string name="richtigkeit">دقة</string>
+    <string name="ausdruecke">تعابير</string>
+    <string name="VokabelPacksBearbeitet">تعديل مجموعات المفردات</string>
+    <string name="GrammatikPacksBearbeitet">تعديل مجموعات القواعد</string>
+    <string name="gelernteVokabeln">الكلمات المتعلمة</string>
+    <string name="PacksErstellt">يتم انشاء المجموعات</string>
+    <string name="PacksDownloads">المجموعات التي تم تنزيلها</string>
+    <string name="TageStrike">متتالية الأيام</string>
+    <string name="Lernstunden">ساعات التعليم</string>
+    <string name="NachichtenGeschrieben">رسائل مكتوبة</string>
+    <string name="tapScreen">إضغط على الشاشة</string>
+    <string name="addVoc">اضف</string>
+    <string name="updateVoc">تحديث</string>
+    <string name="VorTipp">قبل الاقتراحات</string>
+    <string name="Tipp">اقتراحات</string>
+    <string name="NachTipp">بعد الاقتراحات</string>
+    <string name="Antwort">رد</string>
+    <string name="meinePacks">مجموعاتي</string>
+    <string name="packLocal">مجموعة</string>
+    <string name="vocabularyLocal">مفردات</string>
+    <string name="testLocal">إمتحان</string>
+    <string name="quizLocal">تمارين</string>
+    <string name="regelnLocal">قواعد</string>
+    <string name="UnlockMenuLocal">افتح</string>
+    <string name="FullVersionStringLocal">النسخة الكاملة</string>
+    <string name="HolDDVolLocal">افتح النسخة الكاملة لاستخدام جميع الفئات</string>
+    <string name="WordsTLocal">كلمات</string>
+    <string name="NotEnoughDataTLocal">لا توجد بيانات كافية</string>
+    <string name="Cat1TLocal">قاموس</string>
+    <string name="checkInternet">تحقق من اتصالك بالإنترنت.</string>
+    <string name="LName">اسم</string>
+    <string name="LEmail">بريد إلكتروني</string>
+    <string name="LPassword">كلمة السر</string>
+    <string name="LGuest">ضيف</string>
+    <string name="LLogin">تسجيل دخول</string>
+    <string name="LLogout">تسجيل الخروج</string>
+    <string name="LSignIn">تسجيل الدخول</string>
+    <string name="CreateNewAccount">قم بإنشاء حساب جديد</string>
+    <string name="LRegister">تسجيل</string>
+    <string name="UNoPassCannotBeEmpty">لا يمكن أن يكون اسم المستخدم أو كلمة المرور فارغًا</string>
+    <string name="LearnOfflineAnywhereAtAnytime">تعلم دون اتصال بالإنترنت في أي مكان وفي أي وقت</string>
+    <string name="TrackYourProgress">تابع تقدمك</string>
+    <string name="AddNewVocabulary">أضف مفرداتك الجديدة</string>
+    <string name="ImproveYourLanguage">قم بتحسين لغتك</string>
+    <string name="AllowLengotoSupportYou">لدعمك LENGO اسمح</string>
+    <string name="Start">بدء</string>
+    <string name="TypeMessage">...اكتب الرسالة </string>
+    <string name="NewPck">مجموعة جديدة</string>
+    <string name="NoPckCraYet">قم بإنشاء مجموعتك الخاصة</string>
+    <string name="VONNUTZERNERSTELLT">صنع بواسطة المستخدمين</string>
+    <string name="likeLengo"> ؟LENGOهل تتمتع</string>
+    <string name="addSubCat">أضف فئة فرعية</string>
+    <string name="okayLocal">حسناً</string>
+    <string name="C30QVokBQ1Local">نعم</string>
+    <string name="C31QVokBQ1Local">لا</string>
+    <string name="AlertT1Local">n ★★★★★/دعم المطور/!LENGOأنت رائع لاستخدام </string>
+    <string name="AlertT1LocalShort">أنت رائع</string>
+    <string name="AlertT2Local">!اكتب مراجعة! كدليل على امتناننا نقدم لك 10 عملات برونزية مجانًا </string>
+    <string name="CloseTLocal">أغلق نهائيًا</string>
+    <string name="LaterTLocal">لاحقًا</string>
+    <string name="OkTLocal">ادعمنا</string>
+    <string name="unlimPacks">نقود غير محدودة</string>
+    <string name="s20SC">شراء 20 عملات فضية</string>
+    <string name="s1SC">شراء 1 عملة فضية</string>
+    <string name="s50BC">شراء 50 عملات برونزية</string>
+    <string name="s10BC">شراء 10 عملات برونزية</string>
+    <string name="buy">شراء</string>
+    <string name="abo">اشترك</string>
+    <string name="endAbo">تم الاشتراك</string>
+    <string name="NenCoins">ليس لديك عدد كافٍ من العملات المعدنية</string>
+    <string name="upload_usrPck">رفع</string>
+    <string name="chose_a_price">اختر السعر:</string>
+    <string name="notify_me">نعم، أريد أن يتم إعلامي عندما يتم قبول مجموعة الخاص بي</string>
+    <string name="accept_AGB">أوافق على الشروط والأحكام العامة للأعمال</string>
+    <string name="accept_DSGVO">أوافق على سياسة الخصوصية</string>
+    <string name="wrong_input">معلومات إدخال خاطئة ، يرجى المحاولة مرة أخرى</string>
+    <string name="Einstellungen">إعدادات</string>
+    <string name="muttersprache">اللغة الأم</string>
+    <string name="lernsprache">تعلُم اللغة</string>
+    <string name="ItWouldBeGreat">...سيكون امرا رائعا لو </string>
+    <string name="freiwilligeAngabe">(اختياري)</string>
+    <string name="thanksForFeedback">شكرا جزيلا على ردك</string>
+    <string name="addLvl">أضف مستوى</string>
+    <string name="toLessVocabs">!تحتاج إلى الأقل 6 تمرين المفردات </string>
+    <string name="thisIsAnEmptyPck">هذه المجموعة فارغة</string>
+    <string name="createLvlWithPlus">اضغط على + لإنشاء مستوى جديد</string>
+    <string name="YouReceiveCoinsIf">تتلقى عملات معدنية في كل مرة يتم تنزيل المجموعة الخاصة بك</string>
+    <string name="NenCoinsShort">عملات غير كافية</string>
+    <string name="WantToBuyPck">هل تريد إلغاء قفل هذه المجموعة لـ &lt;++&gt;؟</string>
+    <string name="ShortWordForStartButton">اِذهَب</string>
+    <string name="WatchVideoDialogHeadding">اكسب عملة</string>
+    <string name="WatchVideoDialogText">اشاهد فيديو واحد</string>
+    <string name="luckyDay">محظوظ</string>
+    <string name="JustToday">7 أيام مجانا   </string>
+    <string name="ActivateNow">قم بتفعيل الفترة التجريبية الخاصة بك الآن. يمكنك الإلغاء في أي وقت</string>
+    <string name="PricePerMonth">.يمكنك الإلغاء في أي وقت بعد انتهاء التجربة</string>
+    <string name="SubsExplain"> AppStore  سيتم تحميل حساب الخاص بك عند تأكيد الشراء . LENGO اشتراكات تجديد تلقائيا.في غضون 24 ساعة قبل انتهاء فترة الإصدار التجريبي أو الاشتراك ،  AppStore سيتم محاسبتك من خلال حساب الخاص بك: _PRICE_ أي جزء غير مستخدم من فترة تجريبية مجانية ، إذا تم عرضه ، سيتم مصادرته عندما يتم تقديمه! شراء اشتراك في هذا المنشور ، عند الاقتضاءAppStoreإدارة اشتراكك في إعدادات حساب الخاص بك. لمزيد من التفاصيل ، يرجى قراءة سياسة الدفع الخاصة بنا.</string>
+    <string name="Activate">تشغيل</string>
+    <string name="email_subject_UserPack">سيتم مراجعة حزمة LENGO الخاصة بك ، &lt;pck-name&gt; ، قريبًا</string>
+    <string name="email_content_UserPack">عزيزي &lt;اسم المستخدم&gt; ، أنت ثمين بالنسبة لنا!  اسمي &lt;اسم&gt;  أنا أتصل بك بخصوص التمرين الذي وضعته معًا.  أود أن أشكركم على دعمكم للمجتمع.  سيتم تحويل كل عملة ينفقها المستخدمون الآخرون على باقتك مباشرة إلى حسابك.  نتطلع إلى مراجعة الحزمة الخاصة بك ، &lt;pck-name&gt; ، قريبًا.  احرص على إجراء تغييرات على الحزمة الخاصة بك من الآن فصاعدًا.  وهي متاحة للجمهور للمستخدمين الآخرين.  إذا كان لديك أي أسئلة، يرجى الاتصال بنا.  مع أطيب التحيات ، &lt;اسم&gt;</string>
+    <string name="placeholder">حيز مخصص</string>
+    <string name="alright">حسنا</string>
+    <string name="serverDown">السيرفر لا يستجيب</string>
+    <string name="youWillGetYourCoins">سوف تتلقى العملات المعدنية الخاصة بك بمجرد أن يعمل السيرفر مرة أخرى.</string>
+    <string name="streak">متتالية</string>
+    <string name="email_subject_UserPack_Conf"> LENGO تمت الموافقة على مجموعة الخاصة بك ، &lt;pck-name&gt;</string>
+    <string name="email_content_UserPack_Conf">عزيزي &lt;usr-name&gt; ،
+! تتوافق مع توقعاتنا المجموعة الخاصة بك ، &lt;pck-name&gt; ،لدينا أخبار جيدة .
+سيتم تحويل كل عملة أخرى ينفقها المستخدمون الآخرون على الحزمة الخاصة بك من الآن فصاعدًا إلى حسابك مباشرةً. احرص على إجراء تغييرات على الحزمة الخاصة بك من الآن فصاعدًا. وهي متاحة للجمهور للمستخدمين الآخرين. إذا كان لديك أي أسئلة ، فلا تتردد في الاتصال بي. مع أطيب التحيات ، &lt;dev-name&gt;</string>
+    <string name="feedbackText">أخبرنا بما يمكننا القيام به لتحسين تجربتك</string>
+    <string name="couponText">استبدل رمز الكوبون هنا.</string>
+    <string name="couponName">كوبون</string>
+    <string name="send">ارسل</string>
+    <string name="invalidCoupon">كوبون غير صالح</string>
+    <string name="endAboQuest">لماذا تريد إنهاء الاشتراك؟ :(</string>
+    <string name="endAboReas1">لا أريد أن أتعلم لغة بعد الآن.</string>
+    <string name="endAboReas2">أنا أتقن جميع التمارين بشكل صحيح.</string>
+    <string name="endAboReas3">سأستمر في استخدام LENGO مجانًا.</string>
+    <string name="endAbootherReas">اذكر سبب آخر</string>
+    <string name="skip">تخطي</string>
+    <string name="youReceivedCoins">مبروك، لقد استلمت قيمة العملات!</string>
+    <string name="yourPacksValue">قيمة المجموعة الخاصة بك</string>
+    <string name="bronze_coins">عملات برونزية</string>
+    <string name="silver_coins">عملات فضية</string>
+    <string name="gold_coins">عملات ذهبية</string>
+    <string name="askIfDelete">هل تريد الحذف \'اسم المجموعة\'؟</string>
+    <string name="messageApp_typeHere">...اكتب هنا</string>
+    <string name="messageApp_from">:من</string>
+    <string name="messageApp_to">:إلى</string>
+    <string name="messageApp_askForTranslation">اطلب الترجمة</string>
+    <string name="messageApp_askForCorrection">اطلب التصحبح</string>
+    <string name="rating_android_top">!شكرا لك</string>
+    <string name="rating_android_text">الرجاء مساعدتنا - مراجعة متجر الألعاب تحدث فرقًا!</string>
+    <string name="rating_android_button_ok">!نعم، أحب</string>
+    <string name="rating_android_button_no">مستحيل</string>
+    <string name="sub_allVocabulary">جميع تمارين المفردات</string>
+    <string name="sub_allGrammar">جميع تمارين القواعد</string>
+    <string name="sub_noAdvertising">ممنوع إعلانات</string>
+    <string name="sub_learnXLanguages">xxx تعلم لغات </string>
+    <string name="sub_monitorProgress">تتبع تقدم التعليم</string>
+    <string name="task_MEMORIZE">حفظ</string>
+    <string name="task_QUIZ">اختبار</string>
+    <string name="task_LISTENING">استماع</string>
+    <string name="task_SPEAKING">تحدث</string>
+    <string name="task_GAMES">ألعاب</string>
+    <string name="task_TEST">إمتحان</string>
+    <string name="task_set_AUDIO">سمعي</string>
+    <string name="task_set_VOICE">نطق</string>
+    <string name="task_set_PUSHNOTIFICATIONS">إشعار الدفع</string>
+    <string name="task_set_PUSHLEARNING">دفعة التعليم</string>
+    <string name="task_set_DARKMODE">وضع أسود</string>
+    <string name="next">التالى</string>
+    <string name="welcome_back">!xxx مرحبًا بك مرة أخرى </string>
+    <string name="level">مستوى</string>
+    <string name="account">حساب</string>
+    <string name="my_coins">عملاتي</string>
+    <string name="buy_coins">شراء</string>
+    <string name="general">عام</string>
+    <string name="tasks">مهام</string>
+    <string name="weak_words">ضعيف</string>
+    <string name="medium_words">متوسط</string>
+    <string name="strong_words">قوي</string>
+    <string name="Score">نتيجة</string>
+    <string name="Learn_this_xxx_words">الكلمات xxx تعلم هذه </string>
+    <string name="discover_tab">اكتشف</string>
+    <string name="progress_tab">تقدم</string>
+    <string name="heighscore">رقم قياسي</string>
+    <string name="whatPackToAdd">ما نوع المجموعة التي تريد إنشاءها؟</string>
+    <string name="appStoreTitle">LENGO مع xxx تعلم</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="newheighscore">درجة عالية جديدة</string>
+    <string name="repeat">كرر</string>
+    <string name="moShr">شهر
+</string>
+    <string name="achievement">الإنجاز</string>
+    <string name="achievements">الإنجازات</string>
+    <string name="collectReward">اجمع المكافآت</string>
+    <string name="translate">ترجمة</string>
+    <string name="noThanks">لا شكراً</string>
+    <string name="whenReceivePush">متى تريد تلقي التذكير الخاص بك؟</string>
+    <string name="expectedLearningCurve">النجاح المتوقع للتعلُّم</string>
+    <string name="deactivate">تعطيل</string>
+    <string name="letsGo">هيا بنا</string>
+    <string name="weekly">أسبوعياً </string>
+    <string name="daily">يومياً</string>
+    <string name="advText">وصول غير محدود إلى جميع المفردات والقواعد. لا إعلانات أو مشتريات داخل التطبيق.</string>
+    <string name="lockoutAll">فتح كل شيء</string>
+    <string name="supportUsTitle">ادعمنا</string>
+    <string name="supportUsSubtitle">إن تطوير تطبيق يعدُّ أمراً شاقاً. لذا بشرائك الإصدار الكامل فإنك تدعمنا بصورة فعالة لاجراء المزيد من التطويرات في الشهور والسنوات القادمة. شكراً لك كثيراً!</string>
+    <string name="privacyPolicy">سياسة الخصوية</string>
+    <string name="restorePurchase">استعادة الشراء</string>
+    <string name="termsOfUse">شروط الاستخدام</string>
+    <string name="recomendedTask">التمرين المُوصى به</string>
+    <string name="share">مشاركة</string>
+    <string name="learnLanguagesEverywhere">تعلَّم اللغات في كل مكان</string>
+    <string name="selectLanguage">حدد اللغة</string>
+    <string name="allLngsInOneApp">جميع اللغات في تطبيق واحد</string>
+    <string name="showAll">مشاهدة الكل</string>
+    <string name="open">فتح</string>
+    <string name="coins">قطع نقدية</string>
+    <string name="coin">قطعة نقدية</string>
+    <string name="pushLearningTitle">😍🎁🎊 التمرين جاهز لك!</string>
+    <string name="continueWithTrial">استمر بالتجربة المجانية</string>
+    <string name="sevenDaysFreeThen">_PRICE_مجاناً لمدة 7 أيام، وبعد ذلك</string>
+    <string name="continuePurchase">هل تريد الاستمرار في التجربة المجانية؟</string>
+    <string name="whyToBuy">التكلفة الشهرية لـ LENGO PRO أقل من سعر علبة سجائر أو من تعلم اللغة في المدرسة أو حتى أقل من سعر نوته لكتابة الملاحظات.</string>
+    <string name="languagePlan">خطة _LAN_</string>
+    <string name="xxxLanguages">لغات ×××</string>
+    <string name="WordTLocal">كلمة</string>
+    <string name="LPassword_NEW">كلمة السر الجديدة</string>
+    <string name="LNew">جديد</string>
+    <string name="LDailyAverage">المتوسط اليومي</string>
+    <string name="LLoad">احصل على</string>
+    <string name="flipL">انعطف</string>
+    <string name="languageDownloadL">تحميل اللغة</string>
+    <string name="languageDownlaodDiscL">لم يتم تثبيت اللغة المحددة لديك. هل تود تحميله؟</string>
+    <string name="sign_in_with_apple">تسجيل الدخول باستخدام Apple</string>
+    <string name="romanization">الكتابة بالحروف اللاتينية</string>
+    <string name="recommended_resources">الموارد الموصى بها</string>
+    <string name="own_lng">لغتي</string>
+    <string name="pack_feedback">كيف تحب \'pack_name\'؟</string>
+    <string name="pack_feedback_text">نستخدم ملاحظاتك لتحسين \'pack_name\' ولاقتراح المحتوى الذي يعجبك في المستقبل.</string>
+    <string name="share_referral">شارك رابط الإحالة الخاص بك</string>
+    <string name="copy">انسخ</string>
+    <string name="invite_friends_referral">قم بدعوة أصدقائك واحصل على 10 عملات معدنية مجانًا مع كل دعوة فريدة.</string>
+    <string name="report_error">الإبلاغ عن خطأ</string>
+    <string name="new_lection">درس جديد</string>
+    <string name="trans.into.text">أنجز الذكاء الاصطناعي هذه الترجمة. ولذلك نطلب منك مشاهدته بحذر. ومع ذلك فهو صحيح في الغالب، ويتحسّن يوماً بعد يوم.</string>
+    <string name="public_">عام</string>
+    <string name="invitation.link">رابط الدعوة</string>
+    <string name="invitation.received">تم تلقي الدعوة</string>
+    <string name="community.packs">الحزم المجتمعية</string>
+    <string name="info">المعلومات</string>
+    <string name="reset.mastery">إعادة تعيين السيطرة</string>
+    <string name="repeated.last">تكرَّر مؤخَّراً</string>
+    <string name="mastery">السيطرة</string>
+    <string name="never">مطلقاً</string>
+    <string name="my.pack">حزمتي</string>
+    <string name="my.lesson">درسي</string>
+    <string name="recent.search">البحث الأخير</string>
+    <string name="account.delete">حذف الحساب</string>
+    <string name="subscription.why.quit">لماذا تريد الخروج؟</string>
+    <string name="account.why.delete">لماذا تريد الحذف؟</string>
+    <string name="subscription.options.subtitle">نتأسف لأنك لم تعد تستطيع الاستمرار في الاستمتاع بالنسخة الاحترافية! نود أن نعرف سبب اختيارك لهذا الأمر.</string>
+    <string name="account.options.subtitle">نتأسف لأنك ستتركنا! نود معرفة سبب حذف حسابك.</string>
+    <string name="subscription.confirm.button">تأكيد الإلغاء</string>
+    <string name="account.confirm.button">تأكيد الحذف</string>
+    <string name="subscription.confirm.subtitle">عند الاستمرار، فإنك تؤكد أنك تريد إزالة المحتوى الذي قمت بفتحه باستخدام النسخة الاحترافية في جهازك مع نهاية فترة الاشتراك.</string>
+    <string name="account.confirm.subtitle">بعد التأكيد، سيتم حذف حسابك بشكل دائم، وبتأثير فوري. في حال رغبتك بأخذ قسط من الراحة، فيمكنك تسجيل الخروج بدلاً من ذلك.</string>
+    <string name="options.title.free">النسخة المجانية من لينغو كافية بالنسبة لي</string>
+    <string name="options.subtitle.free"> نحن سعداء أيضاً إذا كنت ترغب باستخدام لينغو مجاناً. ولكن يرجى الانتباه إلى أنك ستخسر الوصول إلى المحتوى الذي تم فتحه باستخدام الإصدار الاحترافي</string>
+    <string name="options.title.expensive">النسخة الاحترافية غالية الثمن بالنسبة لي.</string>
+    <string name="options.subtitle.expensive">يرجى الانتباه إلى أن النسخة الاخترافية والنسخة المجانية خاليتان من الإعلانات. أنت تقدِّم الدعم لنا، ولمزيد من التطوير لدينا عند شراء النسخة الاخترافية.</string>
+    <string name="options.title.problems">لديّ مشاكل في التطبيق</string>
+    <string name="options.subtitle.problems">لا تتردد في زيارة موقعنا على الإنترنت للحصول على موارد إضافية. إذا تم تحديد سوء استخدامك للتطيبق، فتواصل معنا عن طريق موقعنا الإلكتروني، أو طريق الاتصال أسفل الملف الشخصي.</string>
+    <string name="options.title.time">ليس لديَّ الوقت لتعلم لغة</string>
+    <string name="options.subtitle.time">تم إجراء دراسة قوية في ولاية ماساتشوستس عام 2007، ذكر فيها المجلس الأمريكي لتعليم اللغات الأجنبية أن: الأطفال الذين يدرسون لغة أجنبية، حتى عندما تستغرق دراسة اللغة الثانية هذه وقتًا بعيدًا عن دراسة الرياضيات، يتفوقون على الطلاب الذين لا يدرسون لغة أجنبية، ويمتلكون إمكانيات رياضية أكبر خلال اليوم الدراسي.</string>
+    <string name="options.title.reason">ليس لديّ سبب لتعلّم لغة أجنبية</string>
+    <string name="options.subtitle.reason">تم التحقق من أن الأشخاص الذين يمارسون عدة لغات يصابون بداء ألزهايمر في وقت متأخر وسطياً. وبالإضافة إلى ذلك، تعتبر اللغات الأجنبية مفيدة في حياتك المهنية، ويمكن أن توسِّع الأفق أمامك.</string>
+    <string name="options.title.break">أريد أخذ قسط من الراحة فقط.</string>
+    <string name="options.subtitle.break">سنقوم بحذف حسابك مباشرة، وبتأثير دائم. لا نوصي بهذا الخيار من أجل إيقاف تعلم اللغة بشكل مؤقَّت.</string>
+    <string name="options.subtitle.free.all">أريد استخدام كل شيء مجاناً</string>
+    <string name="confirm">تأكيد</string>
+    <string name="subscription.confirm.details">بعد التأكيد، لن يعود بإمكانك الوصول إلا إلى المحتوى الذي تم تحميله باستخدام النسخة الاحترافية، وخلال الفترة المتبقية فقط.</string>
+    <string name="account.confirm.details">عند الاستمرار، فإنك تؤكد رغبتك بإزالة كافة المحتوى المترافق مع حسابك. وهذا يتضمن أيضاً المحتوى المدفوع.</string>
+    <string name="subscription.cancel">إلغاء الاشتراك</string>
+    <string name="invalid.credentials">اسم المستخدمة وكلمة المرور الخاصان بك غير صحيحين</string>
+    <string name="unexpected.happened">حدث شيء ما غير متوقَّع</string>
+    <string name="submitted.successful">تم التقديم بنجاح</string>
+    <string name="username.taken">تم أخذ اسم المستخدم</string>
+    <string name="email.taken">تم أخذ بريدك الإلكتروني</string>
+    <string name="league">الدوري</string>
+    <string name="create.account.to.use.feature">إنشاء حساب لاستخدام هذه الخاصية</string>
+    <string name="league.remaining.time">الوقت المتبقي:</string>
+    <string name="follow">متابعة</string>
+    <string name="unfollow">إلغاء المتابعة</string>
+    <string name="following">يقومون بالمتابعة</string>
+    <string name="add.friends">إضافة أصدقاء</string>
+    <string name="search.name">البحث عن الاسم</string>
+    <string name="playback.speed">سرعة التشغيل</string>
+    <string name="digitize.list">تحويل القائمة إلى أرقام</string>
+    <string name="minute">دقيقة</string>
+    <string name="minutes">دقيقة</string>
+    <string name="you">أنت</string>
+    <string name="rank">مرتبة</string>
+    <string name="top">الأوائل</string>
+    <string name="leaderboard">الأوائل</string>
+    <string name="skip.intro">تخطى المقدمة</string>
+    <string name="result.feedback.1">حسنا!</string>
+    <string name="result.feedback.2">عظيم!</string>
+    <string name="result.feedback.3">جيد!</string>
+    <string name="result.feedback.4">ترقبوا!</string>
+    <string name="result.feedback.5">واصل التدريب!</string>
+    <string name="intermediate.feedback.1">جيد!</string>
+    <string name="intermediate.feedback.2">ممتاز!</string>
+    <string name="intermediate.feedback.3">رائع!</string>
+    <string name="intermediate.feedback.4">أحسنت صنيعًا!</string>
+    <string name="intermediate.feedback.5">جيد جدًا!</string>
+    <string name="intermediate.feedback.6">جميل!</string>
+    <string name="intermediate.feedback.7">مبهر!</string>
+    <string name="streak.notifications">شغِّل إشعارات الإنجازات الممتابعة</string>
+    <string name="streak.notifications.description">ستتلقى إشعارًا عندما تُشرف إنجازاتك المتتابعة على الانتهاء.</string>
+    <string name="tap.the.matching.pairs">اضغط على الأزواج المتطابقة</string>
+    <string name="not.registered">غير مسجل</string>
+    <string name="push.reminders">تذكيرات</string>
+    <string name="intermediate.feedback.streak">_STREAK_دفعة واحدة!</string>
+    <string name="introduction.video">شاهد المقدمة</string>
+    <string name="push.reminder.title.1">حان الوقت...</string>
+    <string name="push.reminder.desc.1">🙏إن لم تتدرب على، فلن تتعلمها _LAN_</string>
+    <string name="push.reminder.title.2">هل ترغب في أخذ استراحة؟</string>
+    <string name="push.reminder.desc.2">لن تتعلم _LAN_ دون العمل عليها 🙃</string>
+    <string name="push.reminder.title.3">مرحبًا! أنت تتأخر!</string>
+    <string name="push.reminder.desc.3">اعمل على _LAN_ خاصتك الآن لتستعيد مكانك مجددًا 🏇</string>
+    <string name="push.reminder.title.4">لينجو هنا...</string>
+    <string name="push.reminder.desc.4">حان الوقت لتأخذ درس _LAN_ اليومي. اقتطع 5 دقائق الآن ⏰</string>
+    <string name="push.reminder.title.5">إلى القمة! 🥇</string>
+    <string name="push.reminder.desc.5">أكمل الدروس لتحقق إنجازات!</string>
+    <string name="push.reminder.title.6">يجب أن تبدأ الآن!</string>
+    <string name="push.reminder.desc.6">إن لم تتابع التعلم، فسيتخطى آخرون ترتيبك 🏁</string>
+    <string name="push.reminder.title.7">حان وقت _LAN_!</string>
+    <string name="push.reminder.desc.7">حسِّن مهاراتك واحدة بواحدة</string>
+    <string name="push.reminder.title.8">ابدأ الآن!</string>
+    <string name="push.reminder.desc.8">أفضل وقت لتعلم الـ _LAN_  هو الآن ⏰</string>
+    <string name="push.reminder.title.9">خطوة بخطوة 🪜</string>
+    <string name="push.reminder.desc.9">تعلم _LAN_ يتطلب بعض التدريب يومًا بيوم. لذا، ابدأ الآن لتصل إلى أهدافك.</string>
+    <string name="push.reminder.title.end">علينا أن نتحدث ✋🏼</string>
+    <string name="push.reminder.desc.end">يبدو أن هذه التذكيرات لا تعمل. لذا، سنتوقف عن إرسالها لك الآن.</string>
+    <string name="daily.lesson">الدرس اليومي</string>
+    <string name="task_set_STREAKREMINDER">تذكيرات بالإنجازات المتتابعة</string>
+    <string name="push.reminder.title.streak">شاهد إنجازاتك المتتابعة 🔥</string>
+    <string name="push.reminder.desc.streak">لقد حققت _STREAK_ إنجاز يومي متتابع. أكمل الدرس الآن لتواصل التقدم.</string>
+    <string name="push.reminder.desc.streak.0">خذ تدريبًا لتبدأ في تحقيق إنجازات متتابعة.</string>
+    <string name="push.learning.subtitle">👆 اضغط مطولاً للتعلم الضغطي 👆</string>
+    <string name="sub.serious">للأشخاص الذين يريدون تناول الموضوع بجدية</string>
+    <string name="become.a.pro">مفتاحك للنجاح</string>
+    <string name="become.a.pro.desc">من المرجح أن يصل مستخدمو LENGO PRO إلى أهدافهم بنجاح.</string>
+    <string name="become.a.pro.btn">كن محترفًا</string>
+    <string name="rate.lengo"> ؟LENGOهل تتمتع</string>
+    <string name="rate.lengo.text">ليس عليك أن تكتب مراجعة. ما عليك سوى اختيار النجوم وإرسالها. يمكنك مساعدتنا بمنحك بضع ثوانٍ من وقتك . ممتنون جداً لك، ونعمل بجد لتلبية متطلباتك.</string>
+    <string name="upcoming">القادمة</string>
+    <string name="remove">إزالة</string>
+    <string name="recommend.new.words">الكلمات الجديدة المقترحة</string>
+    <string name="not.interested">غير مهتم</string>
+    <string name="welcome">أهلاً و سهلاً</string>
+    <string name="choice.of.millions.of.users">خيار ملايين المستخدمين</string>
+    <string name="screenshot.add.own.words">أضف مفردات جديدة</string>
+    <string name="screenshot.grammar.voc.conj">المفردات النحو تصريف الأفعال</string>
+    <string name="screenshot.track.your.progress">تعقب تطورك</string>
+    <string name="screenshot.perfect.on.the.go">مناسب للاستخدام على الطريق</string>
+    <string name="appstore.info.name">تعلم اللغات مع LENGO</string>
+    <string name="appstore.info.subname">النحو والمفردات وتصريف الأفعال</string>
+    <string name="appstore.app.promotional.text">مع تطبيق LENGO لتعلم اللغات، يمكنك تعلم مفردات جديدة لتوسيع حصيلة مفرداتك اللغوية، وتعلم القواعد النحوية، وتعقب تقدم عمليتك التعلمية.</string>
+    <string name="appstore.app.description.text">مع تطبيقنا، سيكون تعلم اللغات أمراً سهلاً للغاية! الكثير من الناس يتعلمون اللغات مع تطبيق LENGO يومياً. لذلك قم بتنزيل التطبيق وأبدأ التعلم أنت أيضاً!  تطبيق LENGO مجاني الاستخدام  إن هدفنا هو اتاحة التعليم للجميع. ولذلك، كافة الميزات الأساسية في التطبيق تعتبر ميزات مجانية. ونعمل بشكل متواصل على توسيع المحتوى المدفوع والمجاني لتحسين مستوى التطبيق.  ماذا تتوقع من هذا التطبيق؟ سيزودك تطبيق LENGO بكل شيء ممكن لتتعلم اللغة التي تريدها. وتبين أنه يمكنك إلى حد كبير  تقليص الوقت الذي تستثمره في تعلم لغة جديدة عن طريق التغذية الراجعة الفورية والنظر المتكرر في المادة وغير ذلك من الأساليب التي يدعمها تطبيق LENGO. وهناك جانب آخر له دو ر هام في نجاح تعلمك وهو الدافعية الذي غالباً  ما يكون غائباً عند تعلم أي لغة جديدة بإحدى الطرق تقليدية. ولكن لمواصلة التعلم، عليك اتخاذ المبادرة دائماً.  المحتوى الإضافي الفاخر باستخدام الإصدار الفاخر من تطبيق LENGO، سيكون بإمكانك فتح أي شيء ترغب به لتعلم لغة جديدة بنجاح وبأسرع وقت ممكن. حول  تطبيق LENGO  تطبيق LENGO هو عبارة عن منصة لتعلم اللغات. ويسعى هذا التطبيق إلى تعزيز قدرة الناس من حول العالم على التواصل مع بعضهم البعض.  سياسة الخصوصية: https://www.lengo.io/about/privacy/ شروط الاستخدام: https://www.lengo.io/about/terms  تواصل معنا في حالة كان لديك أية أسئلة: contact@lengo.io  ---------------------------------------------------------------  معلومات حول الاشتراك المتجدد تلقائياً   الاشتراك ليس أساسياً للوصول إلى المواد التعليمية الكاملة. والوصول الكامل للمحتوى يمكن أن يكون أيضاً من خلال رفع مواد تعليمية واتاحتها للمجمتع المحلي. وعدا ذلك، يكون الوصول للمحتوى من خلال الشراء من داخل التطبيق. وعلى أي حال، فإن الاشتراك مفيد للمستخدمين الذين يرغبون في الوصول الكامل للمحتوى بدون قيامهم بإتخاذ أي اجراء اضافي. ولا يتعين على المستخدم المشترك الانتباه إلى عملتنا الرقمية. وبناء على ذلك، يكون الوصول الكامل للمحتوى في تطبيق Lengo من خلال الإصدار الفاخر.   سيتم تجديد كل اشتراك بصورة تلقائية ما لم يتم إيقاف التجديد التلقائي قبل 24 ساعة على الأقل من نهاية فترة الدفع الحالية. سيتم خصم رسم التجديد من حساب AppStore الخاص بك تلقائياً بنفس سعر اشتراك المرة الأولى في غضون 24 ساعة قبل نهاية فترة الدفع الحالية ما لم تقم بتغيير تفضيلات اشتراكك في إعدادات حساب AppStore الخاص بك. وعند قيامك بإلغاء اشتراكك، سوف تنتهي صلاحية وصولك إلى دورات التطبيق وميزاته في نهاية فترة الدفع </string>
+    <string name="appstore.event.name">_language_ متوفرة الآن</string>
+    <string name="appstore.event.short.text">اكشف تمارين مفردات وقواعد جديدة</string>
+    <string name="appstore.event.long.text">خسرت في مجموعة من المفردات والتمارين. جميعنا نتعلم شيئاً جديداً سواء كنا مبتدئين أو حتى كنا خبراء.</string>
+    <string name="features.voices">الأصوات</string>
+    <string name="features.unlock.voice">فتح صوت</string>
+    <string name="features.unlock.all.voices">فتح جميع الأصوات</string>
+    <string name="online">عبر الإنترنت</string>
+    <string name="offline">بدون إنترنت</string>
+    <string name="features.natural.voice">صوت طبيعي</string>
+    <string name="female">أنثى</string>
+    <string name="male">ذكر</string>
+    <string name="sub.polyglott.pro">بولي غلوت برو</string>
+    <string name="pro">برو</string>
+    <string name="memorize.got.it">أنجزته</string>
+    <string name="memorize.study.again">ادرس مجدداً</string>
+    <string name="privacy.camera.usage">لمسح المستندات</string>
+    <string name="privacy.microphone.usage">ممارسة التحدث بلغة أجنبية</string>
+    <string name="privacy.speech.recognition.usage">ممارسة التحدث بلغة أجنبية</string>
+    <string name="import.file">استيراد ملف</string>
+    <string name="settings.articles">مقالات</string>
+    <string name="task.automatically">تلقائيّا</string>
+    <string name="brand">LENGO</string>
+    <string name="learn.more">تعلم المزيد</string>
+    <string name="from.price">من_PRICE_</string>
+    <string name="seven.days.free">7 أيام مجاناً</string>
+    <string name="sub.additional.information">تفاصيل الاشتراك</string>
+    <string name="sub.info.text">يمكنك تعطيل التجديد التلقائي في أي وقت. يمكنك الوصول إلى الخيارات لتعطيل وتغيير اشتراكك في إعدادات حسابك على متجر آبل. جميع الاشتراكات تتجدد تلقائياً ما لم يتم إيقاف التجديد التلقائي قبل 24 ساعة على الأقل من نهاية فترة الدفع الحالية. سيتم إجراء الرسوم التالية خلال 24 ساعة قبل نهاية فترة الدفع الحالية.</string>
+    <string name="billed.monthly">الدفع شهرياً</string>
+    <string name="billed.every.x.months">الدفع كل _XMTHS_</string>
+    <string name="price.per.month">_PRICE_ شهرياً</string>
+    <string name="spare.x.percent">وفر _XPERCENT_</string>
+    <string name="upgrade.now">قم بالترقية الآن</string>
+    <string name="all.features">جميع الميزات</string>
+    <string name="cannot.affort.it">لا تستطيع تحملها؟</string>
+    <string name="request.discount">اطلب حسماً</string>
+    <string name="often.used">أقل شيوعاً</string>
+    <string name="less.common">مستخدم غالباً</string>
+    <string name="plural">الجمع</string>
+    <string name="singular">المفرد</string>
+    <string name="popular.option">الشائع</string>
+    <string name="sub.info.text.free">يمكنك إلغاء فترتك التجريبية المجانية قبل 24 ساعة من انتهائها. لن تتكبد أي تكاليف. الاشتراك التجريبي متوفر فقط للعملاء الجدد. بعد انتهاء الفترة التجريبية سيتم اقتطاع دفعة كامل قيمة اشتراكك الذي قمت باختياره من خلال حسابك على متجر آبل.</string>
+    <string name="more">المزيد</string>
+    <string name="store">المتجر</string>
+    <string name="pack.search">قوائم المفردات والقواعد وغيرها</string>
+    <string name="words.search">المفردات والترجمات وغيرها</string>
+    <string name="general.search">المفردات والتدريبات وغيرها</string>
+    <string name="create">إنشاء</string>
+    <string name="create.list">إنشاء قائمة</string>
+    <string name="name.intro">مرحباً! أنا_NAME_.</string>
+    <string name="voice.example">أتمنى أن يعجبك صوتي.</string>
+    <string name="avoide.loosing.data">قم بإنشاء حساب لتجنب فقدان بياناتك.</string>
+    <string name="answer.with">أجب باستخدام</string>
+    <string name="onboarding.interests.question">ما الذي تهتم به؟ </string>
+    <string name="lesson">الدرس</string>
+    <string name="pack.not.public">حزمتك خاصة حالياً. اجعلها عامة لكي يتمكن الآخرون من العثور عليها.</string>
+    <string name="rejected.because.blocked.for.x">لا يمكنك النشر الآن. حاول مجدداً خلال:</string>
+    <string name="rejected.because.harsh.language">لم يتم نشر حزمتك لأنها تستخدم لغة قد تكون غير مناسبة لجمهورنا.</string>
+    <string name="rejected.because.duplicate">لم يتم نشر حزمتك لأنها تبدو مكررة.</string>
+    <string name="rejected.because.nsfw">لم يتم نشر حزمتك لأنها ربما تستخدم صور غلاف غير مناسبة.</string>
+    <string name="pack.accepted.and.public">تهانينا 🎉 حزمتك عامة الآن، ومتوفرة للناس بحيث يمكنهم تحميلها</string>
+    <string name="usernames.pack">حزمة _USERNAME_</string>
+    <string name="rejected.because.content">لم يتم نشر حزمتك لأنها بحاجة إلى مزيد من المحتوى أو الوصف.</string>
+    <string name="edit">تعديل</string>
+    <string name="languages">اللغات</string>
+    <string name="social.media">وسائل التواصل الاجتماعي</string>
+    <string name="language.skill.native">أصلي</string>
+    <string name="language.skill.superior">متفوق</string>
+    <string name="language.skill.very.advanced">متقدم جداً</string>
+    <string name="language.skill.advanced">متقدم</string>
+    <string name="language.skill.good">جيد</string>
+    <string name="language.skill.Intermediate">مهارة متوسطة</string>
+    <string name="language.skill.elementary.proficiency">مهارة ابتدائية</string>
+    <string name="language.skill.no.proficiency">لا توجد مهارة</string>
+    <string name="references">المراجع</string>
+    <string name="bio">التعريف الشخصي</string>
+    <string name="add.language">إضافة لغة</string>
+    <string name="add.social.media">إضافة وسائل التواصل الاجتماعي</string>
+    <string name="creator">مؤسس</string>
+    <string name="follower">متابع</string>
+    <string name="followed">تتم متابعته</string>
+    <string name="forgot.password">نسيت كلمة المرور</string>
+    <string name="reset.password">إعادة ضبط كلمة المرور</string>
+    <string name="reset.password.subject">تم إعادة ضبط كلمة المرور</string>
+    <string name="reset.password.message">عزيزي [user]، \\n\\nلقد تلقينا طلباً لإعادة ضبط كلمة مرورك. كلمة المرور الأولية الجديدة هي: [initial.password]. يرجى استخدام كلمة المرور هذه للدخول إلى حسابك وتذكر تغييرها في أسرع وقت ممكن. \\n\\nإذا لم تكن قد طلبت إعادة ضبط كلمة المرور، فيرجى التواصل مع خدمة دعم العملاء لدينا مباشرة. \\n\\nشكراً لك، \\nLENGO</string>
+    <string name="email.sent">تم إرسال البريد الإلكتروني</string>
+    <string name="unverified.email">بريد إلكتروني غير متحقق منه</string>
+    <string name="verifiy.email.subject">تحقق من عنوان بريدك الإلكتروني</string>
+    <string name="verifiy.email.message">على وشك الانتهاء، [user] \\n\\nلتأمين حسابك على LENGO، نحتاج فقط إلى التحقق من عنوان بريدك الإلكتروني. يرجى فتح رابط التحقق هذا:  link: [link].</string>
+    <string name="downloads">التنزيلات</string>
+    <string name="views">العروض</string>
+    <string name="reviews">المراجعات</string>
+    <string name="created.by.username">أنشأها [username]</string>
+    <string name="not.available.in.your.language">هذه الحزمة غير متوفرة باللغة [language]</string>
+    <string name="not.available.for.your.language">هذه الحزمة غير متوفرة باللغة [language]</string>
+    <string name="available.in.langs.for.lang">متوفرة باللغات [languages] من أجل اللغة [language]</string>
+    <string name="crop">تشذيب</string>
+    <string name="neutral">حيادي</string>
+    <string name="correct">صحيحصحيح</string>
+    <string name="incorrect">غير صحيح</string>
+    <string name="imports">يستورد</string>
+</resources>
+
